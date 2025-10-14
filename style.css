@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #0A0E27;
+    color:#FFFFFF ;
+    width: 100%;
+    height: 100vh;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#FFFFFF ;
+}
+
+/* header */
+header{
+    background: rgba(10, 14, 41);
+    opacity: 95%;
+    padding: 16px 40px;
+    width: 100%;
+    position: fixed;
+}
+nav{
+    /* max-width: 1400px; */
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* logo design */
+.logo{
+    font-size: 27.5px;
+    font-weight: bold;
+}
+.logo span{
+    color: #00FFFF;
+}
+
+/* menue design */
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    gap: 40px;
+}
+
+/* button de connexion */
+.connexion{
+    padding: 12px 24px;
+    border-radius: 10px;
+    color: #0A0E27;
+    background: linear-gradient(to right,  #00FFFF, #0099FF);
+    box-shadow:0 0 8px 0  #0099FF;
+}
+
+/* hero section */
+.hero{
+    width: 100%;
+    height: 721.08px;
+    background: linear-gradient(to right , #0A0E27, #1A1F3A);
+}
+
+
+
