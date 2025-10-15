@@ -239,7 +239,7 @@ nav ul{
     margin: 0 auto;
 }
 
-.about h2{
+.title-section{
     font-size: 39.2px;
     font-weight: 700;
     line-height: 39.2px;
@@ -258,22 +258,70 @@ nav ul{
 
 .container-items{
     margin-top: 32px;
-    width: 1160px;
+    width: 1200px;
     /* background-color: red; */
     height: 326.78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 .card-item{
     width: 365.33px;
-    height: 365.33px;
-    /* background-color: red; */
+    height: 100%;
     border-radius: 16px;
     border: 1px solid  #00FFFF33;
     background: linear-gradient(#1A1F3A99, #0F142899);
 }
 
+.card-item .container-icon{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.card-item .icon{
+    font-size: 40px;
+    color: #00FFFF;
+    width: 80px;
+    height: 80px;
+    /* top: 41px;
+    left: 142.66px; */
+    border-radius: 40px;
+    background: linear-gradient(#00FFFF33, #FF00FF33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-item h3{
+    font-size:23.4px ;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.card-item p{
+    font-size: 14.9px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #B0B0B0;
+    text-align: center;
+    padding: 0 30px;
+}
 
 
+/* joueur section */
 
+.joueur{
+    width: 1200px;
+    height: 940px;
+    max-width: 1200px;
+    /* top: 1751.63px;
+    left: 40px; */
+    margin-bottom: 150px;
 
-
-
+}
+.profiles-cart{
+    background-color: red;
+    width: 1160px;
+    height: 801.780px;
+}
