@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
 
 </head>
 <body>
@@ -36,30 +36,29 @@
                 </p>
                 <div class="button-hero">
                     <a href="#connexion" class="button1-hero">Commencer maintenant</a>
-                    <a href="#connexion" class="button2-hero">En savoir plus</a>
+                    <a href="#about" class="button2-hero">En savoir plus</a>
                 </div>
             </div>
         </div>
     </section>
     <!-- Rechercher equipe section -->
-    <section class="equipe">
+    <section class="equipe" id="connexion">
         <h2>Recherche ton équipe idéale</h2>
-        
         <form  class="rechercher-form">
             <div class="columForm">
-                <label for="">Jeu</label>
+                <label>Jeu</label>
                 <div class="input-colum">
                     <input type="text" placeholder="Sélectionner un jeu">
                 </div>
             </div>
             <div class="columForm">
-                <label for="">Niveau</label>
+                <label>Niveau</label>
                 <div class="input-colum">
                     <input type="text" placeholder="Tous les niveaux">
                 </div>
             </div>
             <div class="columForm">
-                <label for="">Role</label>
+                <label>Role</label>
                 <div class="input-colum">
                     <input type="text" placeholder="Tous les roles">
                 </div>
@@ -71,7 +70,7 @@
     </section>
 
     <!-- comment ca marche -->
-    <section class="about">
+    <section class="about" id="about">
         <h2 class="title-section">Comment ça marche ?</h2>
         <div class="gradient"></div>
         <div class="container-items">
@@ -116,6 +115,7 @@
         </div>
     </section>
 
+    <!-- joueurs -->
     <section class="joueur">
         <h2 class="title-section">Joueurs disponibles</h2>
         <div class="gradient"></div>
@@ -149,8 +149,8 @@
                     </div>
                 </div>
                 <div class="content-profile">
-                    <h3>xFawzer</h3>
-                        <div class="jeu-nom">       <p>Valorant</p>
+                    <h3>AimSentry</h3>
+                        <div class="jeu-nom">       <p>CS2</p>
                         </div>
                     <div class="role-joueur">
                         <p>Controller</p>
@@ -158,6 +158,46 @@
                     </div>
                     <p class="text-profile">Main Clove/Omen, cherche équipe compétitive
                     pour ranked push
+                    </p>
+                </div>
+                <button class="button-rech">Voir le profile</button>
+            </div>
+            <div class="cart-profile">
+                <div class="container-profile">
+                    <div class="image-profile">
+                        <img src="image.png" alt="profile">
+                        <!-- <div class="enLigne"></div> -->
+                    </div>
+                </div>
+                <div class="content-profile">
+                    <h3>Soulbane</h3>
+                        <div class="jeu-nom">       <p>League of Legends</p>
+                        </div>
+                    <div class="role-joueur">
+                        <p>Mid lane</p>
+                        <p>Diamant II</p>
+                    </div>
+                    <p class="text-profile">Lorem, ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </div>
+                <button class="button-rech">Voir le profile</button>
+            </div>
+            <div class="cart-profile">
+                <div class="container-profile">
+                    <div class="image-profile">
+                        <img src="image.png" alt="profile">
+                        <!-- <div class="enLigne"></div> -->
+                    </div>
+                </div>
+                <div class="content-profile">
+                    <h3>Zepgyra</h3>
+                        <div class="jeu-nom">       <p>League of Legends</p>
+                        </div>
+                    <div class="role-joueur">
+                        <p>Controller</p>
+                        <p>Diamant I</p>
+                    </div>
+                    <p class="text-profile">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </p>
                 </div>
                 <button class="button-rech">Voir le profile</button>
@@ -191,53 +231,11 @@
                     </div>
                 </div>
                 <div class="content-profile">
-                    <h3>xFawzer</h3>
-                        <div class="jeu-nom">       <p>Valorant</p>
+                    <h3>Vexial</h3>
+                        <div class="jeu-nom">       <p>League of Legends</p>
                         </div>
                     <div class="role-joueur">
-                        <p>Controller</p>
-                        <p>Diamant II</p>
-                    </div>
-                    <p class="text-profile">Main Clove/Omen, cherche équipe compétitive
-                    pour ranked push
-                    </p>
-                </div>
-                <button class="button-rech">Voir le profile</button>
-            </div>
-            <div class="cart-profile">
-                <div class="container-profile">
-                    <div class="image-profile">
-                        <img src="image.png" alt="profile">
-                        <!-- <div class="enLigne"></div> -->
-                    </div>
-                </div>
-                <div class="content-profile">
-                    <h3>xFawzer</h3>
-                        <div class="jeu-nom">       <p>Valorant</p>
-                        </div>
-                    <div class="role-joueur">
-                        <p>Controller</p>
-                        <p>Diamant II</p>
-                    </div>
-                    <p class="text-profile">Main Clove/Omen, cherche équipe compétitive
-                    pour ranked push
-                    </p>
-                </div>
-                <button class="button-rech">Voir le profile</button>
-            </div>
-            <div class="cart-profile">
-                <div class="container-profile">
-                    <div class="image-profile">
-                        <img src="image.png" alt="profile">
-                        <!-- <div class="enLigne"></div> -->
-                    </div>
-                </div>
-                <div class="content-profile">
-                    <h3>xFawzer</h3>
-                        <div class="jeu-nom">       <p>Valorant</p>
-                        </div>
-                    <div class="role-joueur">
-                        <p>Controller</p>
+                        <p>Jungle</p>
                         <p>Diamant II</p>
                     </div>
                     <p class="text-profile">Main Clove/Omen, cherche équipe compétitive
@@ -248,6 +246,8 @@
             </div>
         </div>
     </section>
+
+    <!-- communaute -->
     <section class="communaute">
         <div class="container-communaute">
             <h2 class="title-section">Une communauté en pleine croissance</h2>
@@ -307,6 +307,7 @@
             </div>
         </div>
     </section>
+    <!-- contact -->
     <section class="contact">
             <h2 class="title-section">Contacter Nous</h2>
             <div class="gradient"></div>
@@ -315,13 +316,13 @@
                     <form  class="contact-form">
                         <div class="container-inputs12">
                             <div class="columForm">
-                                <label for="">Nom Complét</label>
+                                <label>Nom Complét</label>
                                 <div class="input-colum">
                                     <input type="text" placeholder="Entrer votre nom complét">
                                 </div>
                             </div>
                             <div class="columForm">
-                                <label for="">Email</label>
+                                <label>Email</label>
                                 <div class="input-colum">
                                     <input type="email" placeholder="Entrer votre email">
                                 </div>
@@ -343,11 +344,12 @@
             </div>
             
     </section>
+    <!-- footer -->
     <footer>
         <div class="container-footer">
             <div class="container-lists">
                 <div class="row-footer">
-                    <h4>TeamUp <span>.gg</span><h4>
+                    <h4>TeamUp <span>.gg</span></h4>
                     <p>La plateforme E-sport qui connecte
                     les joueurs et les équipes du
                     monde entier.
@@ -368,7 +370,7 @@
                     </div>
                 </div>
                 <div class="row-footer  row2" >
-                    <h4>Plateforme<h4>
+                    <h4>Plateforme</h4>
                     <ul>
                         <li><a href="#equipe">
                             Trouver une équipe
@@ -386,7 +388,7 @@
                     </ul>
                 </div>
                 <div class="row-footer  row2" >
-                    <h4>Jeux<h4>
+                    <h4>Jeux</h4>
                     <ul>
                         <li><a href="#">
                             Valorant
@@ -405,7 +407,7 @@
                     </ul>
                 </div>
                 <div class="row-footer  row2" >
-                    <h4>Support<h4>
+                    <h4>Support</h4>
                     <ul>
                         <li><a href="#">
                             Centre d'aide
@@ -420,9 +422,8 @@
                         <li>
                             <a href="#">Contact</a>
                         </li>
-                    </ul>
+                    </ul>                
                 </div>
-                
             </div>
             <div class="copyright">
                 <p>© 2025 TeamUp.gg. Tous droits réservés. Tayeb SOUINI, Formateur Référent Youcoude Youssoufia, Réaliser par Nohaila Ait Hammad</p>
