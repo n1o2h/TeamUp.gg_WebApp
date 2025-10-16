@@ -333,7 +333,7 @@ nav ul{
     align-items: center;
     
 }
-.cart-profile{
+.cart-profile, .container-contact{
     background: linear-gradient(#1A1F3ACC, #0F1428CC);
     width:365.33px;
     height: 384.89px;
@@ -432,11 +432,15 @@ nav ul{
 /* communaute */
 /* statistiques */
 .communaute{
+    border-top: 1px solid #00FFFF1A;
+    /* border-bottom: 1px solid #00FFFF1A; */
     width: 1280px;
     height: 920px;
     padding: 96px 40px;
-    background: linear-gradient(#00FFFF0D, #00FFFF00);
+    background: linear-gradient(to right, #00FFFF0D, #00FFFF00);
     margin: 0 auto;
+    margin-bottom: 50px;
+
 
 }
 .container-communaute{
@@ -496,6 +500,7 @@ nav ul{
 .comments{
     width: 1160px;
     height: 349.2px;
+    
 }
 .comments h3{
     width: 100%;
@@ -558,6 +563,75 @@ nav ul{
     line-height: 23px;
     color: #888888;
 }
+/* contact */
+.contact{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+    margin-bottom:48px;
+    
+}
+.container-contacter{
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(#1A1F3A99,#0F142899);
+    border: 1px solid #00FFFF33; */
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.form-contact{
+    width: 600px;
+    height: 100%;
+
+}
+.contact-form{
+    padding: 20px;
+    background: linear-gradient(#1A1F3A99,#0F142899);
+    border: 1px solid #00FFFF33;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-inputs12{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.message
+{
+    width: 550px;
+    height: 200px;
+    margin: 0 auto;
+}
+.contact-form .input-colum input { 
+    color: #E0E0E0;
+}
+.message .input-colum{
+    padding: 15px 31px 15px 19px;
+    color: #E0E0E0;
+
+}
+
+.message textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: 15.1px;
+    font-weight: 400;
+    line-height: 17px;
+    padding-top: 10px;
+}
+.bntrech{
+    margin-left:22px ;
+}
+
 /* footer */
 
 footer{
