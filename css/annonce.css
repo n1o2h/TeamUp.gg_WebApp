@@ -3,6 +3,7 @@
     padding: 0;
     font-family: "Inter", sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     background: #0A0E27;
@@ -18,7 +19,10 @@ a{
     text-decoration: none;
     color:#FFFFFF ;
 }
-
+#navActive{
+    color: #00FFFF;
+    font-weight: 700;
+}
 /* header  et navigation */
 header{
     width: 100%;
@@ -440,7 +444,7 @@ nav ul{
 /* joueurs Prifles */
 .joueursPrifles{
     width: 1200px;
-    height: 1400px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -645,6 +649,7 @@ nav ul{
 .bntrech{
     margin-left:22px ;
 }
+
 /* image contact */
 
 .container-image {
@@ -669,12 +674,10 @@ nav ul{
     width: 100%;
     height: 100%;
     transition: ease-in-out .5s;
-
 }
 .container-image img:hover{
     transform: scale(1.05);
 }
-
 /* footer */
 
 footer{
@@ -792,6 +795,87 @@ footer{
     text-align: center;
     color: #888888;
 }
+
+.container-annonce{
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(#1A1F3A99,#0F142899);
+    border: 1px solid #00FFFF;
+    box-shadow: 0 0 10px 0 #00FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contForm{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+}
+.input-container{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.inputdiv{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inputdiv label{
+    font-size: 13.8px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 23px;
+
+}
+.inputdiv input, select{
+    border-radius: 8px;
+    border: 1px  #00FFFF4D solid;
+    background-color: #0A0E27CC;
+    padding: 15px 31px 15px 19px;
+    outline: none;
+    color: #E0E0E0;
+}
+.inputdiv input::placeholder{
+    padding: 1px 0;
+    font-size: 15.1px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: start;
+    color: #B0B0B0;
+}
+
+.inputdiv select{
+    outline: none;
+    width: 245px;
+    border-radius: 8px;
+    background-color: #0A0E27CC;
+    padding: 15px 31px 15px 19px;
+    color: #B0B0B0;
+    text-align: center;
+
+}
+.inputdiv select option{
+    text-align: center;
+
+    color: #B0B0B0;
+}
+.input-container button{
+text-align: center;
+}
+.inputdiv .input-colum{
+    resize: none;
+    height: 150px;
+    color: #B0B0B0;
+    font-size: 15.1px;
+}
+
 
 
 

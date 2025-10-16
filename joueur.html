@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamUp.gg Web Application</title>
-    <link rel="stylesheet" href="joueur.css">
+    <link rel="stylesheet" href="css/joueur.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,11 +20,11 @@
             <ul>
                 <li><a href="index.html">Accuiel</a></li>
                 <li><a href="about.html">Comment ça marche</a></li>
-                <li><a href="joueur.html">Joueur</a></li>
-                <li><a href="joueur.html">Annonce</a></li>
+                <li><a href="joueur.html" id="navActive">Joueur</a></li>
+                <li><a href="annonce.html">Annonce</a></li>
                 <li><a href="about.html">Communauté</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="#connexion" class="connexion">Connexion</a></li>
+                <li><a href="connexion.html" class="connexion">Connexion</a></li>
             </ul>
         </nav>
     </header>
@@ -42,7 +42,7 @@
         </div>
     </section>
     <!-- Rechercher equipe section -->
-    <section class="joueursPrifles">
+    <section class="joueursPrifles" id="connexion">
         <h2 class="title-section">Tous Les Profiles des joueurs</h2>
             <div class="gradient"></div>
         <div class="equipe">
@@ -227,7 +227,7 @@
                         </div>
                         <div class="columForm   message">
                             <label >Message</label>
-                            <textarea  class="input-colum" placeholder="Votre message">Votre message</textarea>
+                            <textarea  class="input-colum" placeholder="Votre message"></textarea>
                         </div>
                         <div class="columForm bntrech">
                             <button type="submit" class="button-rech">Envoyer</button>
